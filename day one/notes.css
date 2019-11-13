@@ -1,6 +1,8 @@
 body{
-    background-image: url(fall.jpg) 
-    /* linear-gradient(to right bottom) */
+    background-image: 
+    /* url(fall.jpg) */
+     linear-gradient(to bottom right, red, blue) 
+    
 
     /* background-image: linear-gradient( */
         
