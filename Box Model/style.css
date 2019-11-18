@@ -25,11 +25,18 @@ html{
 
  
 
-   /* p{ 
+   p{ 
        width: 50%;
        border: 2px solid rgb(255, 0, 85);
        padding-left: 40px;
-       margin: 0auto;
-       margin: 50px 20px;
+       margin: 50px;
+       /* margin: 0auto; */
+       /* margin: 50px 20px; */
       
-  }  */
+  }  
+  div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  } 

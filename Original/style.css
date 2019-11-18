@@ -1,0 +1,33 @@
+
+
+div{  
+    background-image: linear-gradient(to right bottom,
+    rgba(255,90,9,.4),
+    rgba(255,90,9,0.4)
+    ),  url(fall.jpg);  
+     background-size: cover;
+
+}
+
+p{
+        width: 300px;
+        border: 15px solid rgb(98, 0, 128);
+        padding: 50px;
+        margin: 20px;
+        color: cyan;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ 
+    
+        
+
+img{
+    height: 50em;
+}
+.test {
+    color :red;
+    background-color: black;
+}
