@@ -1,0 +1,22 @@
+p{ 
+    /* font-family: "Impact"; */
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+   color: blue;
+   font-family: "Georgia";
+   text-align: center;
+   /* text-decoration: overline; */
+   text-decoration: line-through; 
+   /* text-decoration: underline;  */
+    text-decoration: underline overline;  
+} 
+
+
+span {
+   font-size: 3.0em;
+   
+}

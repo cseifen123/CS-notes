@@ -1,3 +1,4 @@
+
 html{
     margin: 0;
     padding: 0;
@@ -7,20 +8,28 @@ html{
 
  .header{
      height: 100vh;
-     /* width:40vw; */
-     background-color: crimson;
-     /* padding: 10px; */
-     /* border: 3px solid black; */
-     /* margin: 0 10px ; */
-    position: relative;
+     /* width:40vw;  */
+     background-color: crimson; 
+     /* padding: 10px;  */
+     /* border: 3px solid black;  */
+      /* margin: 0 10px ;  */
+      position: relative;
+      
  }
- .header-text{
+    .header-text{
      position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%,-50%);
  }
 
+ 
 
-
-        
+   /* p{ 
+       width: 50%;
+       border: 2px solid rgb(255, 0, 85);
+       padding-left: 40px;
+       margin: 0auto;
+       margin: 50px 20px;
+      
+  }  */
