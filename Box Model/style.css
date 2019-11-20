@@ -1,42 +1,58 @@
-
 html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  div {
+      background-image: linear-gradient(to right bottom, 
+      rgba(209, 219, 219, 0.4), 
+      rgba(209, 219, 219, 0.4), 
+      ), url(earth.webp);
+      height:200vh ; 
+      background-size: cover; 
+      outline: 10px solid rgb(41, 80, 95);
+      
+
+
+      
+  }
+
+header{
+   text-transform: uppercase;
+   color:white;
+   font-weight: bold;
+   font-family: 'Bebas Neue', cursive;
+   text-align: center;
+   font-size: 8.0em;
+   letter-spacing: .5em;
 
 }
 
- .header{
-     height: 100vh;
-     /* width:40vw;  */
-     background-color: crimson; 
-     /* padding: 10px;  */
-     /* border: 3px solid black;  */
-      /* margin: 0 10px ;  */
-      position: relative;
-      
- }
-    .header-text{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%);
- }
+h1{
+  border: 10px solid rgb(41, 80, 95);
+  padding: 5px; 
+  margin-left: 375px;
+  width: 500px;
+  text-align: center;
+  color:black;
+}
 
- 
 
-   /* p{  */
-       /* width: 50%; */
-       /* border: 2px solid rgb(255, 0, 85); */
-       /* padding-left: 40px; */
-       /* margin: 50px; */
-       /* margin: 0auto; */
-       /* margin: 50px 20px; */
-      
-  /* }   */
-  /* div { */
-    /* width: 300px; */
-    /* border: 15px solid green; */
-    /* padding: 50px; */
-    /* margin: 20px; */
-  /* }  */
+
+.font {
+   font-weight: bolder;
+   font-size: 1em;
+   font-family: cursive;
+   line-height: 2;
+}
+
+
+.background {
+  background-color:rgb(41, 80, 95);
+  opacity: 0.5;
+  filter: Alpha(opacity=50);
+}
+
+
+
