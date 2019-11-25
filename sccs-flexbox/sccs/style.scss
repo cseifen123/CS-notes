@@ -1,0 +1,23 @@
+@import "./header";
+
+
+$colors:(
+    primary: #4567af;
+);
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+// body{
+//     background-color: red;
+// }
+// // material design
+
+
+$padding: 1.5rem;
+
+
+body{
+background-color: color(primary);
+
+}
