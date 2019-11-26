@@ -1,23 +1,46 @@
-@import "./header";
+// @import "./_header.scss";
 
 
-$colors:(
-    primary: #4567af;
-);
-@function color($color-name) {
-    @return map-get($colors, $color-name);
+
+// $colors:(
+//     primary: #333
+// );
+
+
+// @function color($color-name){
+//     @return map-get($colors, $color-name);
+// }
+
+
+// // body{
+// //     background-color: red;
+// // }
+// // // material design
+
+
+// $padding: 1.5rem;
+
+// flex mdn
+// what the flexbox
+.flex-parent{
+    height: 60vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
 }
 
-// body{
-//     background-color: red;
-// }
-// // material design
+.flex-child{
+    height: 20vh;
+    background-color: red;
+    margin: 10px;
 
+}
 
-$padding: 1.5rem;
+#flex-grow{
+    flex-grow: 1;
+    display: flex;
 
-
-body{
-background-color: color(primary);
-
+}
+#flex-grow-2{
+    flex-grow: 2;
 }
