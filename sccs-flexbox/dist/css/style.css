@@ -1,15 +1,3 @@
-header, .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .flex-parent {
   height: 60vh;
   background-color: blue;
@@ -24,7 +12,7 @@ header, .contact {
 
 .flex-child {
   height: 20vh;
-  background-color: red;
+  background-color: green;
   margin: 10px;
 }
 
